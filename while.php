@@ -1,13 +1,7 @@
 <?php
-	switch ($total) {
-		case 10:
-			echo "10";
-			break;
-		
-		case 20:
-			echo "20";
-			break;
-		default:
-			echo "その他";
+	$i = 1;
+	while ($i <= 10) {
+		echo $i."<br>";
+		$i++;
 	}
 ?>
