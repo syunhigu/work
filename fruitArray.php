@@ -1,8 +1,7 @@
 <?php
-	$fruit = array("イチゴ","りんご","バナナ");
-	$vegetable = array("きゅうり","かぼちゃ","じゃがいも");
-
-	$foods = array($fruit,$vegetable);
+	$foods = array(
+		"fruit" => array("いちご","りんご","バナナ")
+		"vegetable" => array("きゅうり","かぼちゃ","じゃがいも"));
 
 	foreach ($foods as $type => $name) {
 			echo $type.":".$name."<br>";
